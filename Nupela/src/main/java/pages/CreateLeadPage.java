@@ -11,8 +11,8 @@ public class CreateLeadPage extends MenuPage{
 	public CreateLeadPage(){
 		PageFactory.initElements(getEventDriver(), this);
 	}
-
-	@FindBy(how = How.ID, using = "createLeadForm_companyName")
+//Changed company name by Muthu
+	@FindBy(how = How.ID, using = "createLeadForm_companyName1")
 	WebElement eleCompanyName;
 	
 	@FindBy(how = How.ID, using = "createLeadForm_firstName")
